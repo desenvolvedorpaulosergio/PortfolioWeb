@@ -1,10 +1,5 @@
 @charset 'UTF-8';
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
 @font-face {
     font-family: 'fonte-texto1';
     src: url(../resources/fonts/font-courier-prime.ttf);
@@ -15,39 +10,85 @@
     src: url(../resources/fonts/font-open-sans.ttf);
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     background: black;
 }
 
+/* Configurações Nav */
+
 nav{
     background: #222222;
-    padding: 25px 20px;
+    padding: 30px 20px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
 }
 
-nav > a{
+nav > a, #estilo-opcoes > a{
     font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
+    transition: 100ms;
     color: #38b6ff;
-    margin: 0px 20px;
+    margin: 0px 15px;
 }
 
-nav > a:hover{
+nav > a:hover, #estilo-opcoes > a:hover{
     text-decoration: underline;
 }
 
 nav > a:first-child{
     font: normal bold 30px 'fonte-texto2';
-    text-decoration: none;
     color: white;
 }
 
-nav > a:last-child{
+nav > a:last-child, #estilo-opcoes > a:last-child{
     color: white;
 }
 
-#config-option-especifico{
+#config-equiv{
+    display: none;
+}
+
+#config-margin-projetosdesign{
     margin-left: auto;
+}
+
+/* Configurações de Estilo das Opções Ocultas */
+
+#estilo-opcoes{
+    background: #222222;
+    margin-top: 1px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+#estilo-opcoes >a{
+    text-align: center;
+    transition: 200ms;
+    border: 100px;
+    padding: 10px;
+    width: 90%;
+}
+
+#estilo-opcoes >a:active{
+    transform: scale(0.95);
+}
+
+#estilo-opcoes >a:hover{
+    border-radius: 10000px;
+    background: white;
+    color: black;
+}
+
+#config-display-opcoes-ocultas{
+    display: none;
 }
