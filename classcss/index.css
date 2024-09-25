@@ -21,16 +21,17 @@ body{
 
 nav{
     background: #222222;
-    padding: 10px 20px;
+    padding: 25px 20px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
 }
 
 nav > a{
-    font: normal normal 20px 'fonte-texto1';
+    font: normal normal 25px 'fonte-texto1';
     text-decoration: none;
-    color: white;
+    color: #38b6ff;
+    margin: 0px 20px;
 }
 
 nav > a:hover{
@@ -40,10 +41,11 @@ nav > a:hover{
 nav > a:first-child{
     font: normal bold 30px 'fonte-texto2';
     text-decoration: none;
+    color: white;
 }
 
 nav > a:last-child{
-    color: ;
+    color: white;
 }
 
 #config-option-especifico{

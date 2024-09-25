@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 1366px) {
+}
+
+@media screen and (max-width: 690px){
+    nav{
+        background: red;
+    }
+}
+
+@media screen and (max-width: 550px) {
+}
