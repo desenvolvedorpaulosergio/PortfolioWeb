@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'fonte-texto1';
+    src: url(../resources/fonts/font-courier-prime.ttf);
+}
+
+@font-face {
+    font-family: 'fonte-texto2';
+    src: url(../resources/fonts/font-open-sans.ttf);
+}
+
+body{
+    background: black;
+}
+
+nav{
+    background: #222222;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+nav > a{
+    font: normal normal 20px 'fonte-texto1';
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav > a:first-child{
+    font: normal bold 30px 'fonte-texto2';
+    text-decoration: none;
+}
+
+nav > a:last-child{
+    color: ;
+}
+
+#config-option-especifico{
+    margin-left: auto;
+}
