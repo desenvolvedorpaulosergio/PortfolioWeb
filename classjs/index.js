@@ -9,3 +9,7 @@ function eventiEquiv(){
         window.document.getElementById('config-display-opcoes-ocultas').style.animationName = "anicacaoOpcoesOcultas"
     }
 }
+
+function eventoCurriculo(){
+
+}

@@ -92,3 +92,32 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #config-display-opcoes-ocultas{
     display: none;
 }
+
+.estilo-padrao-subocoesde-curriculo{
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 98%;
+}
+
+.estilo-padrao-subocoesde-curriculo > a{
+    font: normal normal 20px 'fonte-texto1';
+    text-decoration: none;
+    border-radius: 1000px;
+    color: #919191;
+    padding: 10px;
+}
+
+.estilo-padrao-subocoesde-curriculo > a:hover{
+    text-decoration: underline;
+    background: black;
+}
+
+.estilo-padrao-subocoesde-curriculo > a:active{
+    text-decoration: underline;
+}
+
+
+#config-opcoes-curriculo{
+    display: none;
+}
