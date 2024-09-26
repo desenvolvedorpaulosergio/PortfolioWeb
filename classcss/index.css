@@ -59,7 +59,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     margin-left: auto;
 }
 
-/* Configurações de Estilo das Opções Ocultas */
+/* Configurações de Estilo das Opções Ocultas de Dispositivo Móvel*/
 
 #estilo-opcoes{
     background: #222222;
@@ -125,4 +125,4 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 #config-especifico-sobre{    
     color: white;
-} 
+}
