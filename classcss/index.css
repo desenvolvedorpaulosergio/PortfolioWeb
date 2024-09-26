@@ -126,3 +126,69 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #config-especifico-sobre{    
     color: white;
 }
+
+/* Projeto Portifolio Parte 1 */
+
+#configuracoes-projeto-portfolio-pt1, #config-display-imagem-pt1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.config-padrao-pt1{
+    padding: 40px 20px;
+    height: 400px;
+    width: 580px;
+    /* background: pink; */
+}
+
+.estilo-palavras-especificas{
+    color: #38b6ff;
+}
+
+#estilos-texto-pt1 > span > h1{
+    font: normal bold 35px 'fonte-texto2';
+    color: white;
+}
+
+#estilos-texto-pt1 > span > p{
+    font: normal normal 20px 'arial';
+    color: white;
+}
+
+#estilos-texto-pt1 > span{
+    width: 500px;
+}
+
+#estilos-texto-pt1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background: red;
+}
+
+.estilo-padrao-imgs-pt1{
+    transition: 300ms;
+    cursor: pointer;
+    width: 50px;
+}
+
+.estilo-padrao-imgs-pt1:hover{
+    box-shadow: 0px 0px 10px #38b6ff;
+    border-radius: 100%;
+}
+
+.estilo-padrao-imgs-pt1:active{
+    transform: scale(0.95);
+}
+
+#config-display-imagem-pt1 > div{
+    
+}
+
+#estilo-imagem-pt1{
+    outline: 5px solid #192E39;
+    border: 10px solid #005489;
+    border-radius: 100%;
+    box-shadow: 0px 0px 50px #38b6ff;
+}
