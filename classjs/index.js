@@ -47,14 +47,3 @@ function eventoSobre(){
 }
 
 //Configurações JavaScript Parte 1 do Projeto Index de Section:
-
-window.document.addEventListener('DOMContentLoaded', function(){
-    setInterval(function(){
-        let numeroAleatorio = Math.floor(Math.random() * 2) + 1
-        if(numeroAleatorio == 1){
-            window.document.getElementById('estilo-imagem-pt1').src = "../resources/imgs/my-profile.png"
-        }else{
-            window.document.getElementById('estilo-imagem-pt1').src = "../resources/imgs/profile1.jpg"
-        }
-    }, 3000)
-})

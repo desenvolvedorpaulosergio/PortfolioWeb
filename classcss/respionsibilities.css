@@ -3,7 +3,32 @@
 @media screen and (min-width: 1366px) {
 }
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 1000px){
+    #estilos-texto-pt1 > span > h1{
+        font-size: 3.3vw;
+    }
+    
+    #estilos-texto-pt1 > span > p{
+        font-size: 2vw;
+    }
+
+    #estilos-texto-pt1 > span{
+        width: 50px;
+        padding: 0;
+    }
+
+    #estilo-imagem-pt1{
+        width: 10%;
+    }
+
+    .config-padrao-pt1{
+        padding: 0;
+        margin: 0;
+        width: 96dvw;
+    }
+}
+
+@media screen and (max-width: 750px){
     nav{
         padding: 25px 15px;
     }
