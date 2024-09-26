@@ -133,6 +133,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .config-padrao-pt1{
@@ -164,7 +165,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    background: red;
+    /* background: red; */
 }
 
 .estilo-padrao-imgs-pt1{
@@ -182,13 +183,18 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     transform: scale(0.95);
 }
 
-#config-display-imagem-pt1 > div{
-    
+@keyframes animacaoImg {
+    to{
+        box-shadow: 0px 0px 40px #38b6ff;
+        transform: translateY(-20px);
+    }
 }
 
 #estilo-imagem-pt1{
+    animation: animacaoImg 3s alternate infinite;
+    box-shadow: 0px 0px 50px #38b6ff;
     outline: 5px solid #192E39;
     border: 10px solid #005489;
     border-radius: 100%;
-    box-shadow: 0px 0px 50px #38b6ff;
+    width: 25dvw;
 }
