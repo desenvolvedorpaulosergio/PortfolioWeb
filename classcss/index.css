@@ -92,18 +92,18 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #config-display-opcoes-ocultas{
     overflow-y: auto;
     display: none;
-    height: 40dvh;
+    height: 180px;
 }
 
 #config-display-opcoes-ocultas::-webkit-scrollbar{
     display: none;
 }
 
-.estilo-padrao-subocoesde-curriculo{
+.estilo-padrao-subocoes{
     text-align: center;
 }
 
-.estilo-padrao-subocoesde-curriculo > a{
+.estilo-padrao-subocoes > a{
     font: normal normal 20px 'fonte-texto1';
     text-decoration: none;
     border-radius: 1000px;
@@ -111,14 +111,18 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     padding: 10px;
 }
 
-.estilo-padrao-subocoesde-curriculo > a:hover{
+.estilo-padrao-subocoes > a:hover{
     text-decoration: underline;
 }
 
-.estilo-padrao-subocoesde-curriculo > a:active{
+.estilo-padrao-subocoes > a:active{
     text-decoration: underline;
 }
 
-#config-opcoes-curriculo, #config-opcoes-projetos{
+#config-opcoes-curriculo, #config-opcoes-projetos, #config-opcoes-sobre{
     display: none;
 }
+
+#config-especifico-sobre{    
+    color: white;
+} 
