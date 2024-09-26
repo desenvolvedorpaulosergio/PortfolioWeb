@@ -16,10 +16,20 @@ function eventiEquiv(){
     }
 }
 
+// Eventos de Opções Ocultas
+
 function eventoCurriculo(){
-    if(window.document.querySelector('#config-opcoes-curriculo').style.display == "block"){
-        window.document.querySelector('#config-opcoes-curriculo').style.display = "none"
+    if(window.document.getElementById('config-opcoes-curriculo').style.display == "block"){
+        window.document.getElementById('config-opcoes-curriculo').style.display = "none"
     }else{
-        window.document.querySelector('#config-opcoes-curriculo').style.display = "block"
+        window.document.getElementById('config-opcoes-curriculo').style.display = "block"
+    }
+}
+
+function eventoProjetos(){
+    if(window.document.getElementById('config-opcoes-projetos').style.display == "block"){
+        window.document.getElementById('config-opcoes-projetos').style.display = "none"
+    }else{
+        window.document.getElementById('config-opcoes-projetos').style.display = "block"
     }
 }

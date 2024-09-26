@@ -92,7 +92,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #config-display-opcoes-ocultas{
     overflow-y: auto;
     display: none;
-    height: 30dvh;
+    height: 40dvh;
 }
 
 #config-display-opcoes-ocultas::-webkit-scrollbar{
@@ -119,6 +119,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     text-decoration: underline;
 }
 
-#config-opcoes-curriculo{
+#config-opcoes-curriculo, #config-opcoes-projetos{
     display: none;
 }
