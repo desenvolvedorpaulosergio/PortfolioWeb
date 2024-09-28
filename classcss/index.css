@@ -149,11 +149,11 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 #estilo-div2-pt1-especifico{
     /* background: PINK; */
+    margin-right: 50px;
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
-    justify-content: center;
-
+    justify-content: flex-end;
 }
 
 #estilo-meu-perfil{
@@ -161,7 +161,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     border: 15px solid #005489;
     outline: 5px solid #192E39;
     border-radius: 1000000px;
-    width: 250px;
+    width: 350px;
 }
 
 #estilos-textos{

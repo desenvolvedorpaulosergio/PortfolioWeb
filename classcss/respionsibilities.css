@@ -26,9 +26,18 @@
         margin: 0;
         width: 96dvw;
     }
+
+    #estilo-meu-perfil{
+        width: 75%;
+    }
+
+    #estilo-div2-pt1-especifico{
+        margin-right: 20px;
+    }
+
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 765px){
     nav{
         padding: 25px 15px;
     }
@@ -157,4 +166,8 @@
         padding: 10px;
     }
 
+    #estilo-div2-pt1-especifico{
+        margin-right: 0px;
+        justify-content: center;
+    }
 }
