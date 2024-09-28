@@ -127,3 +127,34 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 /* Projeto Portifolio Parte 1 */
+
+#configuracoes-projeto-portfolio-pt1{
+
+}
+
+.estilo-divspt1-padrao{
+    width: 50%;
+}
+
+#estilo-div2-pt1-especifico{
+    background: red;
+}
+
+#estilo-div2-pt1-especifico{
+    background: red;
+}
+
+#estilos-textos > h1{
+    font: normal bold 35px 'fonte-texto2';
+    line-height: 40px;
+    color: white;
+}
+
+.estilo-palavra-espefecifico{
+    color: #38b6ff;
+}
+
+#estilos-textos > p{
+    font: normal normal 22px 'arial';
+    color: white;
+}
