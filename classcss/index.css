@@ -137,19 +137,21 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div1-pt1-especifico{
-    padding: 0px 0px 0px 10px;
-    /* background: red; */
-    width: 60%;
+    padding: 0px 0px 0px 20px;
+    background: red;
     display: flex;
+    width: 60%;
     align-items: center;
     flex-flow: row nowrap;
 }
 
 #estilo-div2-pt1-especifico{
+    background: PINK;
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
     justify-content: center;
+
 }
 
 #estilo-meu-perfil{
@@ -165,13 +167,13 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilos-textos > h1{
-    font: normal bold 35px 'fonte-texto2';
+    font: normal bold 32px 'fonte-texto2';
     transition: 200ms;
     color: white;
 }
 
 #estilos-textos > p{
-    font: normal normal 22px 'arial';
+    font: normal normal 20px 'arial';
     transition: 200ms;
     color: white;
 }

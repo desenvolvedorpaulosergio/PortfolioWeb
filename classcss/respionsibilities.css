@@ -42,17 +42,32 @@
         font-size: 25px;
     }
 
+    /* Responsividade part1 de Main */
+
+    #estilo-div1-pt1-especifico{
+        padding: 0px 0px 0px 10px;
+    }
+
     #estilos-textos > h1{
-        font-size: 25px;
+        font-size: 24px;
     }
     
     #estilos-textos > p{
-        font-size: 18px;
+        font-size: 16px;
     }
-    
+
     .config-icons{
         width: 35px;
     }
+
+    #estilo-meu-perfil{
+        width: 75%;
+    }
+    
+    .estilo-divspt1-padrao{
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
