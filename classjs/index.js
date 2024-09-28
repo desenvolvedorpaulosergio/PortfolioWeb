@@ -50,11 +50,13 @@ function eventoSobre(){
 
 window.document.addEventListener('DOMContentLoaded', function(){
     window.setInterval(function(){
-        let idPerfil = Math.floor(Math.random() * 2) + 1
+        let idPerfil = Math.floor(Math.random() * 3) + 1
         if(idPerfil == 1){
             window.document.querySelector('#estilo-meu-perfil').src = "./resources/imgs/profile1.jpg"
         }else if(idPerfil == 2){
             window.document.querySelector('#estilo-meu-perfil').src = "./resources/imgs/profile2.png"
+        }else{
+            window.document.querySelector('#estilo-meu-perfil').src = "./resources/imgs/profile3.png"
         }
     },3000)
 })
