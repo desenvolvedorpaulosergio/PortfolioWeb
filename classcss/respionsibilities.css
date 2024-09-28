@@ -41,6 +41,18 @@
     nav > a:first-child{
         font-size: 25px;
     }
+
+    #estilos-textos > h1{
+        font-size: 25px;
+    }
+    
+    #estilos-textos > p{
+        font-size: 18px;
+    }
+    
+    .config-icons{
+        width: 35px;
+    }
 }
 
 @media screen and (max-width: 550px) {

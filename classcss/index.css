@@ -63,7 +63,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #estilo-opcoes{
     background: #222222;
     margin-top: 1px;
-    padding: 10px 0px;
+    padding: 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +74,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     text-align: center;
     transition: 200ms;
     border: 100px;
-    padding: 10px;
     width: 90%;
 }
 
@@ -107,7 +106,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     text-decoration: none;
     border-radius: 1000px;
     color: #919191;
-    padding: 10px;
 }
 
 .estilo-padrao-subocoes > a:hover{
@@ -129,24 +127,52 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 /* Projeto Portifolio Parte 1 */
 
 #configuracoes-projeto-portfolio-pt1{
-
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .estilo-divspt1-padrao{
+    height: 400px;
     width: 50%;
 }
 
-#estilo-div2-pt1-especifico{
-    background: red;
+#estilo-div1-pt1-especifico{
+    padding: 0px 0px 0px 10px;
+    /* background: red; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
 }
 
 #estilo-div2-pt1-especifico{
-    background: red;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#estilo-meu-perfil{
+    box-shadow: 0px 0px 60px #38b6ff;
+    border: 15px solid #005489;
+    outline: 5px solid #192E39;
+    border-radius: 1000000px;
+    width: 250px;
+}
+
+#estilos-textos{
+    width: 500px;
 }
 
 #estilos-textos > h1{
     font: normal bold 35px 'fonte-texto2';
-    line-height: 40px;
+    transition: 200ms;
+    color: white;
+}
+
+#estilos-textos > p{
+    font: normal normal 22px 'arial';
+    transition: 200ms;
     color: white;
 }
 
@@ -154,7 +180,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     color: #38b6ff;
 }
 
-#estilos-textos > p{
-    font: normal normal 22px 'arial';
-    color: white;
+.config-icons{
+    width: 50px;
 }
+
