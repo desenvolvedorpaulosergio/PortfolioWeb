@@ -42,7 +42,7 @@
         font-size: 25px;
     }
 
-    /* Responsividade part1 de Main */
+    /*Responsividade part1 de Main:  Tela de 750px*/
 
     #estilo-div1-pt1-especifico{
         padding: 0px 0px 0px 10px;
@@ -67,7 +67,6 @@
     .estilo-divspt1-padrao{
         height: 300px;
     }
-
 }
 
 @media screen and (max-width: 550px) {
@@ -106,7 +105,56 @@
     nav{
         padding: 0px 0px 0px 10px;
     }
+
     #config-display-opcoes-ocultas{
         animation: anicacaoOpcoesOcultas 500ms 1;
     }
+
+    /*Responsividade part1 de Main:  Tela de 550px*/
+
+    #configuracoes-projeto-portfolio-pt1{
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse nowrap;
+    }
+
+    .estilo-divspt1-padrao, #estilo-div1-pt1-especifico{
+        width: 95%;   
+    }
+
+    .estilo-divspt1-padrao{
+        height: 260px;
+    }
+
+    #estilo-div2-pt1-especifico{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    #estilo-meu-perfil{
+        width: 230px;
+    }
+
+    #estilo-div1-pt1-especifico{
+        text-align: center;
+        padding: 0px 0px;
+    }
+
+    #estilos-textos > h1{
+        font-size: 28px;
+    }
+    
+    #estilos-textos > p{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .config-icons{
+        width: 50px;
+    }
+    
+    #configuracoes-projeto-portfolio-pt1{
+        padding: 10px;
+    }
+
 }

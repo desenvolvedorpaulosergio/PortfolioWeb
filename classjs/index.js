@@ -47,3 +47,14 @@ function eventoSobre(){
 }
 
 //Configurações JavaScript Parte 1 do Projeto Index de Section:
+
+window.document.addEventListener('DOMContentLoaded', function(){
+    window.setInterval(function(){
+        let idPerfil = Math.floor(Math.random() * 2) + 1
+        if(idPerfil == 1){
+            window.document.querySelector('#estilo-meu-perfil').src = "./resources/imgs/profile1.jpg"
+        }else if(idPerfil == 2){
+            window.document.querySelector('#estilo-meu-perfil').src = "./resources/imgs/profile2.png"
+        }
+    },3000)
+})
