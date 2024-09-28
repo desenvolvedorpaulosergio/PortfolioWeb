@@ -185,6 +185,15 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 .config-icons{
+    transition: 100ms;
     width: 50px;
 }
 
+.config-icons:hover{
+    box-shadow: 0px 0px 10px #38b6ff;
+    border-radius: 100%;
+}
+
+.config-icons:active{
+    transform: scale(0.95);
+}
