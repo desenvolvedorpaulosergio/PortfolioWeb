@@ -200,19 +200,19 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 #configuracoes-projeto-portfolio-pt2{
     background: #2a2d3a;
+    padding: 40px 10px;
     display: flex;
+    align-items: center;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: center;
-    padding: 40px 10px;
 }
 
 .estilo-titulo-padrao{
     font: normal normal 35px 'fonte-texto2';
     background: #2a2d3a;
-    line-height: 100px;
     text-align: center;
     color: white;
+    padding: 40px 0px 0px 0px;
 }
 
 #estilo-div1-pt2-especifico{
@@ -220,6 +220,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     border: 2px solid #192E39;
     background: #005489;
     border-radius: 20px;
+    transition: 200ms;
     height: 450px;
     width: 350px;
     display: flex;
@@ -233,6 +234,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div2-pt2-especifico{
+    transition: 200ms;
     padding: 0px 20px;
     height: 400px;
     width: 650px;
@@ -245,10 +247,13 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #estilo-titulo-especifico{
     background: transparent;
     line-height: normal;
+    transition: 200ms;
     text-align: left;
+    padding: 0;
 }
 
 .estilo-texto-padrao{
     font: normal normal 20px 'arial';
+    transition: 200ms;
     color: white;
 }

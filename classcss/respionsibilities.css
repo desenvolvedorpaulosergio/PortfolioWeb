@@ -37,7 +37,7 @@
 
 }
 
-@media screen and (max-width: 775px){
+@media screen and (max-width: 800px){
     nav{
         padding: 25px 15px;
     }
@@ -51,7 +51,7 @@
         font-size: 25px;
     }
 
-    /*Responsividade part1 de Main:  Tela de 775px*/
+    /*Responsividade part1 de Main:  Tela de 800px*/
 
     #estilo-div1-pt1-especifico{
         padding: 0px 0px 0px 10px;
@@ -76,9 +76,33 @@
     .estilo-divspt1-padrao{
         height: 300px;
     }
+
+    /* Configurações de Responsividade Parte 2: Section */
+    
+    #estilo-div1-pt2-especifico{
+        height: 350px;
+        width: 350px;
+    }
+
+    #estilo-meu-perfil2{
+        width: 180px;
+    }
+
+    .estilo-titulo-padrao{
+        font-size: 30px;
+    }
+
+    #estilo-titulo-especifico{
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .estilo-texto-padrao{
+        font-size: 15px;
+    }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
 
     @keyframes anicacaoOpcoesOcultas {
         from{
@@ -119,7 +143,7 @@
         animation: anicacaoOpcoesOcultas 500ms 1;
     }
 
-    /*Responsividade part1 de Main:  Tela de 550px*/
+    /*Responsividade part1 de Main:  Tela de 570px*/
 
     #configuracoes-projeto-portfolio-pt1{
         display: flex;
@@ -169,5 +193,34 @@
     #estilo-div2-pt1-especifico{
         margin-right: 0px;
         justify-content: center;
+    }
+
+    /* Configurações de Responsividade Parte 2: Section */
+
+    #configuracoes-projeto-portfolio-pt2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column nowrap;
+    }
+
+    #estilo-div1-pt2-especifico{
+        margin-top: 20px;
+        height: 350px;
+        width: 250px;
+    }
+
+    #estilo-div2-pt2-especifico{
+        text-align: center;
+        width: auto;
+    }
+
+    #estilo-titulo-especifico{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .estilo-texto-padrao{
+        font-size: 18px;
     }
 }
