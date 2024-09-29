@@ -37,7 +37,7 @@
 
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 775px){
     nav{
         padding: 25px 15px;
     }
@@ -51,7 +51,7 @@
         font-size: 25px;
     }
 
-    /*Responsividade part1 de Main:  Tela de 750px*/
+    /*Responsividade part1 de Main:  Tela de 775px*/
 
     #estilo-div1-pt1-especifico{
         padding: 0px 0px 0px 10px;
