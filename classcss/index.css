@@ -140,7 +140,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 #estilo-div1-pt1-especifico{
     padding: 0px 0px 0px 20px;
-    /* background: red; */
     display: flex;
     width: 60%;
     align-items: center;
@@ -148,7 +147,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div2-pt1-especifico{
-    /* background: PINK; */
     margin-right: 50px;
     display: flex;
     align-items: center;
@@ -196,4 +194,61 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 .config-icons:active{
     transform: scale(0.95);
+}
+
+/* Projeto Portifolio Parte 2 */
+
+#configuracoes-projeto-portfolio-pt2{
+    background: #2a2d3a;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.estilo-titulo-padrao{
+    font: normal normal 35px 'fonte-texto2';
+    background: #2a2d3a;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#estilo-div1-pt2-especifico{
+    box-shadow: 0px 0px 50px #38b6ff;
+    border: 2px solid #192E39;
+    background: #005489;
+    border-radius: 20px;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#estilo-meu-perfil2{
+    width: 220px;
+}
+
+#estilo-div2-pt2-especifico{
+    padding: 0px 20px;
+    height: 400px;
+    width: 650px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+
+#estilo-titulo-especifico{
+    background: transparent;
+    line-height: normal;
+    text-align: left;
+}
+
+.estilo-texto-padrao{
+    font: normal normal 20px 'arial';
+    color: white;
 }
