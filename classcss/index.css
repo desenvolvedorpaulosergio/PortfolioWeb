@@ -198,6 +198,12 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 /* Projeto Portifolio Parte 2 */
 
+@keyframes eventoImg {
+    to{
+        transform: translateY(10px);
+    }
+}
+
 #configuracoes-projeto-portfolio-pt2{
     background: #2a2d3a;
     padding: 40px 10px;
@@ -216,6 +222,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div1-pt2-especifico{
+    animation: eventoImg 2s alternate infinite;
     box-shadow: 0px 0px 50px #38b6ff;
     border: 2px solid #192E39;
     background: #005489;
@@ -256,4 +263,21 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     font: normal normal 20px 'arial';
     transition: 200ms;
     color: white;
+}
+
+/* Projeto Portifolio Parte 2 */
+
+#configuracoes-projeto-portfolio-pt3{
+    background: #2a2d3a;
+    margin: 200px 0px;
+    padding: 10px;
+}
+
+.estilo-padrao-titulo2{
+    font: normal normal 30px 'fonte-texto2';
+    color: white;
+}
+
+.estilo-divspt3-padrao{
+    width: 50%;
 }
