@@ -329,13 +329,13 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 .estilos-titulo-habilidades{
-    font: normal bold 24px 'fonte-texto2';
+    font: normal bold 23px 'fonte-texto2';
     color: #38b6ff;
 }
 
 .estilo-habilidades-icones{
     filter: opacity(70%);
-    width: 100px;
+    
 }
 
 .estilo-padrao-especifico{
