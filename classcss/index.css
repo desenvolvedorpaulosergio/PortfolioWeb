@@ -271,6 +271,10 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     background: #2a2d3a;
     margin: 200px 0px;
     padding: 40px 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 .estilo-padrao-titulo2{
@@ -283,7 +287,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div1-pt3{
-    background: red;
+    background: pink;
     padding: 10px;
 }
 
