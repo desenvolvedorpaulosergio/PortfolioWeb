@@ -274,7 +274,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .estilo-padrao-titulo2{
@@ -283,11 +283,11 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 .estilo-divspt3-padrao{
-    width: 550px;
+    width: 450px;
 }
 
 #estilo-div1-pt3{
-    background: pink;
+    /* background: pink; */
     padding: 10px;
 }
 
@@ -302,5 +302,43 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div2-pt3{
-    background: red;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.config-tamanho-padrao{
+    border: 1px solid #95969d;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 10px;
+    transition: 200ms;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.config-tamanho-padrao:hover{
+    transform: scale(1.05);
+}
+
+.estilos-titulo-habilidades{
+    font: normal bold 24px 'fonte-texto2';
+    color: #38b6ff;
+}
+
+.estilo-habilidades-icones{
+    filter: opacity(70%);
+    width: 100px;
+}
+
+.estilo-padrao-especifico{
+    padding: 8px 0px;
+    width: 80%;
 }
