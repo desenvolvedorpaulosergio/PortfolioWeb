@@ -279,6 +279,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 .estilo-padrao-titulo2{
     font: normal normal 30px 'fonte-texto2';
+    transition: 200ms;
     color: white;
 }
 
@@ -294,8 +295,9 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 .estilo-padrao-botoes{
     font: normal normal 15px 'arial';
     background: #38b6ff;
-    padding: 10px 30px;
     border-radius: 2px;
+    padding: 10px 0px;
+    width: 120px;
     cursor: pointer;
     color: white;
     border: none;

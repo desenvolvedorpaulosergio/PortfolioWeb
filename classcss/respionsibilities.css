@@ -100,6 +100,23 @@
     .estilo-texto-padrao{
         font-size: 15px;
     }
+
+    /* Configurações de Responsividade Parte 3: Section */
+
+    #config-titulo-especifico-pt3{
+        font-size: 25px;
+    }
+
+    .estilo-texto-padrao, #estilo-div1-pt3 > p{
+        font-size: 15px;
+    }
+    
+    #configuracoes-projeto-portfolio-pt3{
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 570px) {
