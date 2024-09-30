@@ -78,7 +78,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     width: 90%;
 }
 
-#estilo-opcoes >a:active{
+#estilo-opcoes >a:active, .estilo-padrao-botoes:active{
     transform: scale(0.95);
 }
 
@@ -259,7 +259,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     padding: 0;
 }
 
-.estilo-texto-padrao{
+.estilo-texto-padrao, #estilo-div1-pt3 > p{
     font: normal normal 20px 'arial';
     transition: 200ms;
     color: white;
@@ -270,7 +270,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #configuracoes-projeto-portfolio-pt3{
     background: #2a2d3a;
     margin: 200px 0px;
-    padding: 10px;
+    padding: 40px 0px;
 }
 
 .estilo-padrao-titulo2{
@@ -280,4 +280,19 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 .estilo-divspt3-padrao{
     width: 50%;
+}
+
+#estilo-div1-pt3{
+    /* background: red; */
+    padding: 10px;
+}
+
+.estilo-padrao-botoes{
+    font: normal normal 15px 'arial';
+    background: #38b6ff;
+    padding: 10px 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    border: none;
 }
