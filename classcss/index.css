@@ -270,7 +270,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #configuracoes-projeto-portfolio-pt3{
     background: #2a2d3a;
     margin: 200px 0px;
-    padding: 40px 0px;
+    padding: 40px 10px;
 }
 
 .estilo-padrao-titulo2{
@@ -279,11 +279,11 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 .estilo-divspt3-padrao{
-    width: 50%;
+    width: 550px;
 }
 
 #estilo-div1-pt3{
-    /* background: red; */
+    background: red;
     padding: 10px;
 }
 
@@ -295,4 +295,8 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     cursor: pointer;
     color: white;
     border: none;
+}
+
+#estilo-div2-pt3{
+    background: red;
 }
