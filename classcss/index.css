@@ -284,7 +284,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div1-pt3{
-    /* background: pink; */
+    width: 450px;
     padding: 10px;
 }
 
@@ -299,8 +299,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     border: none;
 }
 
-#estilo-div2-pt3{
-    /* width: 350px; */
+#estilo-div2-pt3, #estilo-div2-pt4{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -339,4 +338,14 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 .estilo-padrao-especifico{
     padding: 8px 0px;
     width: 80%;
+}
+
+#estilo-div1-pt4{
+    width: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#estilo-div2-pt4{
+    width: 400px;
 }
