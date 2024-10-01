@@ -283,10 +283,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     color: white;
 }
 
-.estilo-divspt3-padrao{
-    width: 450px;
-}
-
 #estilo-div1-pt3{
     /* background: pink; */
     padding: 10px;
@@ -304,7 +300,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #estilo-div2-pt3{
-    width: 400px;
+    /* width: 350px; */
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
