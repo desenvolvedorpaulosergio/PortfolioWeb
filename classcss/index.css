@@ -259,7 +259,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     padding: 0;
 }
 
-.estilo-texto-padrao, #estilo-div1-pt3 > p{
+.estilo-texto-padrao, #estilo-div1-pt3 > p, #estilo-div1-pt5 > p{
     font: normal normal 20px 'arial';
     transition: 200ms;
     color: white;
@@ -299,7 +299,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     border: none;
 }
 
-#estilo-div2-pt3, #estilo-div2-pt4{
+#estilo-div2-pt3, #estilo-div2-pt4, #estilo-div2-pt5{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -346,6 +346,19 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     flex-flow: row wrap;
 }
 
-#estilo-div2-pt4{
+#estilo-div2-pt4, #estilo-div2-pt5{
     width: 400px;
+}
+
+/* Projeto Portifolio Parte 5 */
+
+#estilo-div1-pt5{
+    width: 450px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.tamanho-especifico-padrao{
+    text-align: center;
+    font-size: 30px;
 }

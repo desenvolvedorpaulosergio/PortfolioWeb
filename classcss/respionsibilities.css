@@ -51,7 +51,7 @@
         font-size: 25px;
     }
 
-    /*Responsividade part1 de Main:  Tela de 800px*/
+    /*Responsividade parte 1 de Main:  Tela de 800px*/
 
     #estilo-div1-pt1-especifico{
         padding: 0px 0px 0px 10px;
@@ -115,6 +115,12 @@
         display: flex;
         flex-flow: column nowrap;
         text-align: center;
+    }
+
+    #estilo-div1-pt5{
+        width: auto;
+        text-align: center;
+        margin-right: 0;
     }
 
 }
