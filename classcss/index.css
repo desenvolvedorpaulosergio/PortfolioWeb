@@ -365,6 +365,37 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 /* Projeto Portifolio Parte 6 */
 
+#configuracoes-projeto-portfolio-pt6{
+    padding: 10px;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
 #estilo-especifico-pt6{
     background: transparent;
+}
+
+.configurações-divs-padroes{
+    background: #222222;
+    border-radius: 5px;
+    overflow-y: hidden;
+    transition: 200ms;
+    height: 200px;
+    width: 250px;
+}
+
+.configurações-divs-padroes:hover{
+    transform: scale(1.02);
+}
+
+.configurações-divs-padroes > h1{
+    font: normal bolder 22px 'fonte-texto2';
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
