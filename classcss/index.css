@@ -435,3 +435,10 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     font: normal normal 20px 'Arial';
     color: white;
 }
+
+#config-iframe{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
