@@ -406,18 +406,19 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 #configuracoes-projeto-portfolio-pt7{
     padding: 50px 0px;
     display: flex;
+    align-items: center;
     flex-flow: row nowrap;
     justify-content: center;
 }
 
 .config-padrao-divs-pt7{
     background: #2a2d3a;
+    padding: 0px 10px;
     height: 400px;
-    width: 580px;
+    width: 45%;
 }
 
 #estilo-textos-pt7{
-    padding: 0px 10px;
     display: flex;
     align-items: center;
     flex-flow: row nowrap;

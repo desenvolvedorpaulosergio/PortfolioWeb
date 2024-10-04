@@ -123,6 +123,23 @@
         margin-right: 0;
     }
 
+    /* Configurações de Responsividade Parte 7: Section */
+
+    #configuracoes-projeto-portfolio-pt7{
+        padding: 0px 0px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .config-padrao-divs-pt7{
+        background: #2a2d3a;
+        height: 400px;
+        width: 80%;
+    }
+
+    .config-padrao-divs-pt7 > span > h1, .config-padrao-divs-pt7 > span > p{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -254,4 +271,15 @@
     #estilo-div1-pt3{
         width: 100%;
     }
+
+    /* Configurações de Responsividade Parte 7: Section */
+
+    .config-padrao-divs-pt7 > span > h1{
+        font-size: 25px;
+    }
+
+    .config-padrao-divs-pt7 > span > p{
+        font-size: 18px;
+    }
+
 }
