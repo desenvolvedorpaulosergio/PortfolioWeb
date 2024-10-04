@@ -179,6 +179,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 .estilo-palavra-espefecifico{
+    font-weight: normal;
     color: #38b6ff;
 }
 
@@ -413,4 +414,23 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     background: #2a2d3a;
     height: 400px;
     width: 580px;
+}
+
+#estilo-textos-pt7{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.config-padrao-divs-pt7 > span > h1{
+    font: normal bold 28px 'fonte-texto2';
+    color: white;
+}
+
+
+.config-padrao-divs-pt7 > span > p{
+    font: normal normal 20px 'Arial';
+    color: white;
 }
