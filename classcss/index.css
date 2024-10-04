@@ -472,6 +472,10 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     transform: scale(1.05);
 }
 
+.estilo-padrao-botoes2:active{
+    transform: scale(0.95);
+}
+
 #config-perfil-costas{
     text-align: center;
     margin-top: 20px;
