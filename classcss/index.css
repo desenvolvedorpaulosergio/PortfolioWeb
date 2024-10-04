@@ -15,10 +15,9 @@
     margin: 0;
 }
 
-
 body{
     background: black;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 /* Configurações Nav */
 
@@ -519,23 +518,23 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #config-flex-modal-carregamento{
-    position: absolute;
-    background: red;
+    background: black;
+    position: fixed;
     height: 100dvh;
     width: 100dvw;
     left: 0;
     top: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 #modal-carregamento{
-    border-radius: 100%;
-    height: 200px;
     width: 200px;
+    height: 200px;
+    border-radius: 100%;
     background: transparent;
-    border: 15px solid black;
-    border-top: 15px solid white;
-    animation: eventoCarregamento 1200ms infinite;
+    border: 15px solid #2A2D3A;
+    border-top: 15px solid #38b6ff;
+    animation: eventoCarregamento 1s infinite;
 }

@@ -60,3 +60,14 @@ window.document.addEventListener('DOMContentLoaded', function(){
         }
     },3000)
 })
+
+//Configurações de Modais:
+
+//Modal de Carregamento:
+
+window.document.addEventListener('DOMContentLoaded', function(){
+    setTimeout(function(){
+        window.document.getElementById('config-display-modal-carregamento').style.display = 'none'
+        window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+    },2000)
+})
