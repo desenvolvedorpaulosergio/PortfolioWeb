@@ -435,3 +435,33 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     font: normal normal 20px 'Arial';
     color: white;
 }
+
+/* Projeto Portifolio Parte 8: FOOTER */
+
+#configuracoes-footer{
+    background: #222222;
+    text-align: center;
+    padding: 30px;
+}
+
+#config-textos-footer > p{
+    font: normal normal 20px 'Arial';
+    color: white;
+}
+
+#config-display-botoes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.estilo-padrao-botoes2{
+    font: normal normal 18px 'fonte-texto1';
+    color: #38b6ff;
+    padding: 5px 25px;
+    border-radius: 1px;
+    border: 1px solid white;
+    text-decoration: none;
+}
