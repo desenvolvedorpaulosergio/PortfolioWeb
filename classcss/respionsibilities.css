@@ -282,4 +282,22 @@
         font-size: 18px;
     }
 
+    /* Configurações de Responsividade Parte 8: Footer */
+
+    #estilo-nome-titulo{
+        width: 90%;
+    }
+    
+    #estilo-nome-titulo > h1{
+        font-size: 5.5vw;
+    }
+
+    #config-perfil-costas > img{
+        width: 250px;
+    }
+
+    #config-textos-footer > p{
+        font-size: 18px;
+    }
+
 }

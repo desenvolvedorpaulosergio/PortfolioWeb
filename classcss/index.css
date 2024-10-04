@@ -447,6 +447,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 #config-textos-footer > p{
     font: normal normal 20px 'Arial';
+    margin: 10px 0px;
     color: white;
 }
 
@@ -497,3 +498,8 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     text-align: center;
     color: white;
 }
+
+#config-perfil-costas > img{
+    width: 300px;
+}
+
