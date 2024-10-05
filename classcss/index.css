@@ -542,17 +542,21 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 
 .estilo-padrao-subpcoes{
-    background: #38b6ff;
+    /* background: #38b6ff; */
     position: absolute;
     text-align: center;
 }
 
 .estilo-padrao-subpcoes > li{
-    font: normal normal 20px 'fonte-texto1';
+    font: normal normal 18px 'fonte-texto1';
     list-style-type: none;
+    background: #38b6ff;
     color: #222222;
-    font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+}
+
+.estilo-padrao-subpcoes > li:hover{
+    text-decoration: underline;
 }
 
 hr{
@@ -560,10 +564,10 @@ hr{
 }
 
 .config-especifico-subopcao{
-    transform: rotate(45deg);
-    background: red;
+    transform: translateY(50%) rotate(45deg);
+    list-style-type: none;
     margin: auto;
-    height: 10px;
-    width: 10px;
-    padding: 0;
+    height: 2px;
+    width: 2px;
+    z-index: 0;
 }
