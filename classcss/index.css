@@ -538,3 +538,32 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     border-top: 15px solid #38b6ff;
     animation: eventoCarregamento 1s infinite;
 }
+
+
+
+.estilo-padrao-subpcoes{
+    background: #38b6ff;
+    position: absolute;
+    text-align: center;
+}
+
+.estilo-padrao-subpcoes > li{
+    font: normal normal 20px 'fonte-texto1';
+    list-style-type: none;
+    color: #222222;
+    font-size: 20px;
+    padding: 10px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.config-especifico-subopcao{
+    transform: rotate(45deg);
+    background: red;
+    margin: auto;
+    height: 10px;
+    width: 10px;
+    padding: 0;
+}
