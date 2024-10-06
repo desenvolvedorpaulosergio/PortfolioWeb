@@ -567,7 +567,11 @@ hr{
     transform: translateY(50%) rotate(45deg);
     list-style-type: none;
     margin: auto;
-    height: 2px;
-    width: 2px;
-    z-index: 0;
+    z-index: 10;
+    height: 1px;
+    width: 1px;
+}
+
+#display-opcoes-ocultas-curriculo{
+    display: none;
 }
