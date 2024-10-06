@@ -551,6 +551,7 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     font: normal normal 18px 'fonte-texto1';
     list-style-type: none;
     background: #38b6ff;
+    transition: 200ms;
     color: #222222;
     padding: 15px;
 }
@@ -572,6 +573,33 @@ hr{
     width: 1px;
 }
 
-#display-opcoes-ocultas-curriculo{
+#display-opcoes-ocultas-curriculo, #display-opcoes-ocultas-projetos, #display-opcoes-ocultas-sobre{
     display: none;
+}
+
+#display-opcoes-ocultas-curriculo > li{
+    padding: 12px 26px;
+    font-size: 15px;
+}
+
+#display-opcoes-ocultas-curriculo > li:first-child{
+    padding: 10px;
+    height: 1px;
+    width: 1px;
+}
+
+#display-opcoes-ocultas-projetos > li{
+    padding: 10px 10px;
+    font-size: 15px;
+}  
+
+#display-opcoes-ocultas-sobre > li{
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+#display-opcoes-ocultas-sobre > li:first-child{
+    padding: 8px;
+    height: 1px;
+    width: 1px;
 }

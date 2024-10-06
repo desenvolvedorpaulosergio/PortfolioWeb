@@ -12,7 +12,7 @@
     <header>
         <nav>
             <a href="#">Ps.Marques</a>
-            <a href="#" class="config-display-optons" id="config-margin-projetosdesign" onmouseenter="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'none'">currículo
+            <a href="#" class="config-display-optons" id="config-margin-projetosdesign" onclick="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'none'">currículo
                 <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-curriculo">
                     <li class="config-especifico-subopcao"></li>
                     <li>curriculo</li>
@@ -20,7 +20,7 @@
                     <li>download</li>
                 </ul>
             </a>
-            <a href="#" class="config-display-optons">projetos
+            <a href="#" class="config-display-optons" onclick="window.document.getElementById('display-opcoes-ocultas-projetos').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-projetos').style.display = 'none'">projetos
                 <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-projetos">
                     <li class="config-especifico-subopcao"></li>
                     <li>projetosweb</li>
@@ -31,7 +31,18 @@
                 </ul>
             </a>
             <a href="#">
-                <span onclick="eventiSobre()" id="config-sobre">sobre</span>
+                <span id="config-sobre" onclick="window.document.getElementById('display-opcoes-ocultas-sobre').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-sobre').style.display = 'none'">sobre
+                    <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-sobre">
+                        <li class="config-especifico-subopcao"></li>
+                        <li>mim</li>
+                        <hr>
+                        <li>habilidades</li>
+                        <hr>
+                        <li>evidências</li>
+                        <hr>
+                        <li>diploma</li>
+                    </ul>
+                </span>
                 <span onclick="eventiEquiv()" id="config-equiv">&equiv;</span>
             </a>
         </nav>
