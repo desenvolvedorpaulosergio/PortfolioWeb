@@ -640,3 +640,25 @@ hr{
 .estilo-habilidades-icones2{
     transform: translateY(20%);
 }
+
+.estilo-div2-modal-habilidades{
+    background: #4d4d4d46;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.estilo-div2-modal-habilidades > ul{
+    list-style: '✔' inside none;
+    overflow-y: auto;
+    height: 150px;
+}
+
+.estilo-div2-modal-habilidades > ul > li{
+    font: normal normal 15px 'Arial';
+    color: black;
+}
+
+.center-button{
+    text-align: center;
+    padding: 10px;
+}
