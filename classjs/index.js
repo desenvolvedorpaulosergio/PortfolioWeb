@@ -168,3 +168,15 @@ function eventoWindows2(){
     window.document.getElementById('config-display-modal-habilidades-windows').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
+
+//Modal de Visualizar Currículo
+
+function eventoVisualizar(){
+    window.document.getElementById('config-display-modal-visualizacao').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoClose(){
+    window.document.getElementById('config-display-modal-visualizacao').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}

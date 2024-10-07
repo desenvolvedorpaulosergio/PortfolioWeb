@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./classcss/index.css">
     <link rel="stylesheet" href="./classcss/respionsibilities.css">
     <script src="classjs/index.js"></script>
@@ -15,9 +16,9 @@
             <a href="#" class="config-display-optons" id="config-margin-projetosdesign" onclick="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'none'">currículo
                 <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-curriculo">
                     <li class="config-especifico-subopcao"></li>
-                    <li>visualizar</li>
+                    <li onclick="eventoVisualizar()">visualizar</li>
                     <hr>
-                    <li>download</li>
+                    <li onclick="window.location='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/curriculo.zip'">download</li>
                 </ul>
             </a>
             <a href="#" class="config-display-optons" onclick="window.document.getElementById('display-opcoes-ocultas-projetos').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-projetos').style.display = 'none'">projetos
@@ -25,9 +26,9 @@
                     <li class="config-especifico-subopcao"></li>
                     <li>projetosweb</li>
                     <hr>
-                    <li>informática</li>
+                    <li onclick="window.location='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/classhtml/indexprojectdesign.html'">informática</li>
                     <hr>
-                    <li>designs</li>
+                    <li onclick="window.location='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/classhtml/indexprojectdesign.html'">designs</li>
                 </ul>
             </a>
             <a href="#">
@@ -85,7 +86,7 @@
                     </p> <br>
                     <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
                     <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
-                    <a href="#"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a> <br> <br> <br>
+                    <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a> <br> <br> <br>
                 </div>
             </div>
             <div class="estilo-divspt1-padrao" id="estilo-div2-pt1-especifico">
@@ -131,13 +132,13 @@
                 <br>
 
                 <button class="estilo-padrao-botoes">projetosweb</button>
-                <button class="estilo-padrao-botoes">designs</button>
+                <button class="estilo-padrao-botoes" onclick="window.location='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/classhtml/indexprojectdesign.html'">designs</button>
 
                 <br> <br>
 
                 <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
                 <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
-                <a href="#"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
+                <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
             </div>
 
             <div class="estilo-divspt3-padrao" id="estilo-div2-pt4">
@@ -225,13 +226,13 @@
                 <br>
 
                 <button class="estilo-padrao-botoes">projetosweb</button>
-                <button class="estilo-padrao-botoes">designs</button>
+                <button class="estilo-padrao-botoes" onclick="window.location='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/classhtml/indexprojectdesign.html'">designs</button>
 
                 <br> <br>
 
                 <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
                 <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
-                <a href="#"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
+                <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
             </div>
         </section>
 
@@ -299,7 +300,7 @@
         <div id="config-textos-footer"> <br> <br>
             <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
             <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
-            <a href="#"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
+            <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laboriosam ab <br> quisquam vel esse rem, possimus quos ipsa.</p>
             <span id="config-display-botoes">
                 <a class="estilo-padrao-botoes2" href="#ancora-sobre-mim">sobre</a>
@@ -319,6 +320,17 @@
             <div id="modal-carregamento"></div>
         </div>
     </div> -->
+
+    <!-- Modal de Visualização -->
+    
+    <div id="config-display-modal-visualizacao">
+        <div id="config-tamanho-container">
+            <iframe src="https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/connectionpages/curriculo.html" frameborder="0" id="config-iframe-fullscreen" name="iframe-evento"></iframe>   
+            <button onclick="eventoClose()" id="config-estilo-botao-close">
+                <span class="material-symbols-outlined">Close</span>
+            </button>         
+        </div>
+    </div>
 
     <!-- Modal de Habilidades: HTML & CSS -->
 
@@ -519,7 +531,5 @@
             </div>
         </div>
     </div>
-
-
 </body>
 </html>
