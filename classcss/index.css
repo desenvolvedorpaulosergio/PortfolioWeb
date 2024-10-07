@@ -609,6 +609,7 @@ hr{
 
 .configuracoes-padrao-modal-habilidades{
     background: #4d4d4d7c;
+    overflow-y: auto;
     position: fixed;
     height: 100dvh;
     width: 100dvw;
@@ -661,4 +662,8 @@ hr{
 .center-button{
     text-align: center;
     padding: 10px;
+}
+
+#config-display-modal-habilidades-htmlcss{
+    display: none;
 }
