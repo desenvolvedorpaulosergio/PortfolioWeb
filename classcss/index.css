@@ -19,6 +19,7 @@ body{
     background: black;
     overflow: hidden;
 }
+
 /* Configurações Nav */
 
 nav{
@@ -251,7 +252,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     justify-content: center;
 }
 
-
 #estilo-titulo-especifico{
     background: transparent;
     line-height: normal;
@@ -333,7 +333,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 
 .estilo-habilidades-icones{
     filter: opacity(70%);
-    
 }
 
 .estilo-padrao-especifico{
@@ -429,7 +428,6 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
     font: normal bold 28px 'fonte-texto2';
     color: white;
 }
-
 
 .config-padrao-divs-pt7 > span > p{
     font: normal normal 20px 'Arial';
@@ -530,16 +528,14 @@ nav > a:last-child, #estilo-opcoes > a:last-child{
 }
 
 #modal-carregamento{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     background: transparent;
     border: 15px solid #2A2D3A;
     border-top: 15px solid #38b6ff;
     animation: eventoCarregamento 1s infinite;
 }
-
-
 
 .estilo-padrao-subpcoes{
     position: absolute;
