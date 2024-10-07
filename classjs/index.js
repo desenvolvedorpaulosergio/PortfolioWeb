@@ -180,3 +180,8 @@ function eventoClose(){
     window.document.getElementById('config-display-modal-visualizacao').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
+
+function eventoVisualizar2(){
+    window.document.getElementById('config-display-modal-visualizacao').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}

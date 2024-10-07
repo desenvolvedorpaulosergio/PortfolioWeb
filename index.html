@@ -35,13 +35,13 @@
                 <span id="config-sobre" onclick="window.document.getElementById('display-opcoes-ocultas-sobre').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-sobre').style.display = 'none'">sobre
                     <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-sobre">
                         <li class="config-especifico-subopcao"></li>
-                        <li onclick="window.location.href='#ancora-sobre-mim'">mim</li>
+                        <li onclick="document.getElementById('ancora-sobre-mim').scrollIntoView({ behavior: 'smooth' });">mim</li>
                         <hr>
-                        <li>habilidades</li>
+                        <li onclick="document.getElementById('estilo-div1-pt3').scrollIntoView({ behavior: 'smooth' });">habilidades</li>
                         <hr>
-                        <li>evidências</li>
+                        <li onclick="document.getElementById('estilo-especifico-pt6').scrollIntoView({ behavior: 'smooth' });">evidências</li>
                         <hr>
-                        <li>diploma</li>
+                        <li onclick="document.getElementById('estilo-especifico-pt7').scrollIntoView({ behavior: 'smooth' });">diploma</li>
                     </ul>
                 </span>
                 <span onclick="eventiEquiv()" id="config-equiv">&equiv;</span>
@@ -51,14 +51,14 @@
             <div id="estilo-opcoes">
                 <a href="#" onclick="eventoCurriculo()">currículo</a>
                 <div class="estilo-padrao-subocoes" id="config-opcoes-curriculo">
-                    <a href="#">visualizar</a> <br> <br>
-                    <a href="#">download</a>
+                    <a href="#" onclick="eventoVisualizar2()">visualizar</a> <br> <br>
+                    <a onclick="window.location='https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Cartazes/curriculo.zip'">download</a>
                 </div>
                 <a href="#" onclick="eventoProjetos()">projetos</a>
                 <div class="estilo-padrao-subocoes" id="config-opcoes-projetos">
                     <a href="#">projetos web</a> <br> <br>
-                    <a href="#">informatica</a> <br> <br>
-                    <a href="#">designs</a>
+                    <a href="https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/classhtml/indexprojectdesign.html">informatica</a> <br> <br>
+                    <a href="https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/classhtml/indexprojectdesign.html">designs</a>
                 </div>
                 <a href="#" class="config-especifico-sobre" id="config-sobree" onclick="eventoSobre()">sobre</a>
                 <div class="estilo-padrao-subocoes" id="config-opcoes-sobre">
@@ -85,7 +85,7 @@
                         consectetur adipisicing elit.
                     </p> <br>
                     <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
-                    <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=silvamarques7957@gmail.com" target="_blank"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
                     <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a> <br> <br> <br>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <br> <br>
 
                 <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
-                <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=silvamarques7957@gmail.com" target="_blank"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
                 <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
             </div>
 
@@ -231,7 +231,7 @@
                 <br> <br>
 
                 <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
-                <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=silvamarques7957@gmail.com" target="_blank"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
                 <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
             </div>
         </section>
@@ -299,7 +299,7 @@
     <footer id="configuracoes-footer">
         <div id="config-textos-footer"> <br> <br>
             <a href="https://github.com/desenvolvedorpaulosergio" target="_blank"><img class="config-icons" src="./resources/imgs/icon-github.png" alt="icon-github"></a>
-            <a href="#"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=silvamarques7957@gmail.com" target="_blank"><img class="config-icons" src="./resources/imgs/icon-email.png" alt="icon-email"></a>
             <a href="https://www.instagram.com/ps_marques167/" target="_blank"><img class="config-icons" src="./resources/imgs/icon-instagram.png" alt="icon-instagram"></a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laboriosam ab <br> quisquam vel esse rem, possimus quos ipsa.</p>
             <span id="config-display-botoes">
@@ -312,14 +312,13 @@
     </footer>
 
     <!-- Elementos Modais -->
-
     <!-- Modal de Carregamento -->
 
-    <!-- <div id="config-display-modal-carregamento">
+    <div id="config-display-modal-carregamento">
         <div id="config-flex-modal-carregamento">
             <div id="modal-carregamento"></div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Modal de Visualização -->
     
