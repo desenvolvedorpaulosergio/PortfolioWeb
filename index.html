@@ -15,7 +15,7 @@
             <a href="#" class="config-display-optons" id="config-margin-projetosdesign" onclick="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-curriculo').style.display = 'none'">currículo
                 <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-curriculo">
                     <li class="config-especifico-subopcao"></li>
-                    <li>curriculo</li>
+                    <li>visualizar</li>
                     <hr>
                     <li>download</li>
                 </ul>
@@ -34,7 +34,7 @@
                 <span id="config-sobre" onclick="window.document.getElementById('display-opcoes-ocultas-sobre').style.display = 'block'" onmouseleave="window.document.getElementById('display-opcoes-ocultas-sobre').style.display = 'none'">sobre
                     <ul class="estilo-padrao-subpcoes" id="display-opcoes-ocultas-sobre">
                         <li class="config-especifico-subopcao"></li>
-                        <li>mim</li>
+                        <li onclick="window.location.href='#ancora-sobre-mim'">mim</li>
                         <hr>
                         <li>habilidades</li>
                         <hr>
@@ -312,11 +312,36 @@
 
     <!-- Elementos Modais -->
 
-    <div id="config-display-modal-carregamento">
+    <!-- Modal de Carregamento -->
+
+    <!-- <div id="config-display-modal-carregamento">
         <div id="config-flex-modal-carregamento">
             <div id="modal-carregamento"></div>
         </div>
+    </div> -->
+
+    <!-- Modal de Habilidades: HTML & CSS -->
+
+    <div id="config-display-modal-habilidades-htmlcss">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-htmlcss.png" alt="habilidades" class="estilo-habilidades-icones2" width="200px">
+                </div> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li>Lorem ipsum dolor si.</li>
+                        <li>Lorem ipsum dolor si.</li>
+                        <li>Lorem ipsum dolor si.</li>
+                        <li>Lorem ipsum dolor si.</li>
+                        <li>Lorem ipsum dolor si.</li>
+                        <li>Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
+
 
 </body>
 </html>
