@@ -71,3 +71,16 @@ window.document.addEventListener('DOMContentLoaded', function(){
         window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
     },2000)
 })
+
+
+
+//Modal de Habilidade HTML & CSS
+function eventoHTMLCSS(){
+    window.document.getElementById('config-display-modal-habilidades-htmlcss').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoHTMLCSS2(){
+    window.document.getElementById('config-display-modal-habilidades-htmlcss').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
