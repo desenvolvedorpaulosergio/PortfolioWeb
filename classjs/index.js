@@ -84,3 +84,87 @@ function eventoHTMLCSS2(){
     window.document.getElementById('config-display-modal-habilidades-htmlcss').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
+
+//Modal de Habilidade JavaScript
+
+function eventoJavaScript(){
+    window.document.getElementById('config-display-modal-habilidades-javascript').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoJavaScript2(){
+    window.document.getElementById('config-display-modal-habilidades-javascript').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+//Modal de Habilidade PHP & MySQL
+
+function eventoPHPMySQL(){
+    window.document.getElementById('config-display-modal-habilidades-phpmysql').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoPHPMySQL2(){
+    window.document.getElementById('config-display-modal-habilidades-phpmysql').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+//Modal de Habilidade Canva
+
+function eventoCanva(){
+    window.document.getElementById('config-display-modal-habilidades-canva').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoCanva2(){
+    window.document.getElementById('config-display-modal-habilidades-canva').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+//Modal de Habilidade Word
+
+function eventoWord(){
+    window.document.getElementById('config-display-modal-habilidades-word').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoWord2(){
+    window.document.getElementById('config-display-modal-habilidades-word').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+//Modal de Habilidade Excel
+
+function eventoExcel(){
+    window.document.getElementById('config-display-modal-habilidades-excel').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoExcel2(){
+    window.document.getElementById('config-display-modal-habilidades-excel').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+//Modal de Habilidade Ed. Imagem
+
+function eventoEdIMG(){
+    window.document.getElementById('config-display-modal-habilidades-edimg').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoEdIMG2(){
+    window.document.getElementById('config-display-modal-habilidades-edimg').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+//Modal de Habilidade Windows
+
+function eventoWindows(){
+    window.document.getElementById('config-display-modal-habilidades-windows').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
+function eventoWindows2(){
+    window.document.getElementById('config-display-modal-habilidades-windows').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}

@@ -153,7 +153,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-javascript.png" alt="habilidades" class="estilo-habilidades-icones" width="50px">
                         <h1 class="estilos-titulo-habilidades">JavaScript</h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoJavaScript()">detalhes</button>
                     </div>
                 </span>
 
@@ -161,7 +161,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-phpmysql.png" alt="habilidades" class="estilo-habilidades-icones" width="120px"> <br>
                         <h1 class="estilos-titulo-habilidades"><small>PHP & MySQL</small></h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoPHPMySQL()">detalhes</button>
                     </div>
                 </span>
 
@@ -169,7 +169,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-canva.png" alt="habilidades" class="estilo-habilidades-icones" width="70px">
                         <h1 class="estilos-titulo-habilidades">Canva</h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoCanva()">detalhes</button>
                     </div>
                 </span>
             </div>
@@ -182,7 +182,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-word.png" alt="habilidades" class="estilo-habilidades-icones" width="60px">
                         <h1 class="estilos-titulo-habilidades tamanho-especifico-padrao">Word</h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoHTMLCSS()">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoWord()">detalhes</button>
                     </div>
                 </span>
 
@@ -190,7 +190,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-excel.png" alt="habilidades" class="estilo-habilidades-icones" width="60px">
                         <h1 class="estilos-titulo-habilidades estilo-padrao-especifico">Excel</h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoExcel()">detalhes</button>
                     </div>
                 </span>
 
@@ -198,7 +198,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-img.png" alt="habilidades" class="estilo-habilidades-icones" width="60px"> <br>
                         <h1 class="estilos-titulo-habilidades"><small>Ed.Imagens</small></h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoEdIMG()">detalhes</button>
                     </div>
                 </span>
 
@@ -206,7 +206,7 @@
                     <div class="config-tamanho-padrao">
                         <img src="./resources/imgs/icon-windows.png" alt="habilidades" class="estilo-habilidades-icones" width="60px">
                         <h1 class="estilos-titulo-habilidades">Windows</h1>
-                        <button class="estilo-padrao-botoes estilo-padrao-especifico">detalhes</button>
+                        <button class="estilo-padrao-botoes estilo-padrao-especifico" onclick="eventoWindows()">detalhes</button>
                     </div>
                 </span>
             </div>
@@ -344,6 +344,172 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal de Habilidades: JavaScript -->
+
+    <div id="config-display-modal-habilidades-javascript">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-javascript.png" alt="habilidades" class="estilo-habilidades-icones2" width="100px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoJavaScript2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Habilidades: PHP & MySQL -->
+
+    <div id="config-display-modal-habilidades-phpmysql">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-phpmysql.png" alt="habilidades" class="estilo-habilidades-icones2" width="240px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoPHPMySQL2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="config-display-modal-habilidades-canva">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-canva.png" alt="habilidades" class="estilo-habilidades-icones2" width="110px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoCanva2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="config-display-modal-habilidades-word">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-word.png" alt="habilidades" class="estilo-habilidades-icones2" width="110px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoWord2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="config-display-modal-habilidades-excel">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-excel.png" alt="habilidades" class="estilo-habilidades-icones2" width="110px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoExcel2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="config-display-modal-habilidades-edimg">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-img.png" alt="habilidades" class="estilo-habilidades-icones2" width="110px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoEdIMG2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="config-display-modal-habilidades-windows">
+        <div class="configuracoes-padrao-modal-habilidades">
+            <div class="estilo-padrao-modal">
+                <div class="estilo-div1-modal-habilidades">
+                    <img src="./resources/imgs/icon-windows.png" alt="habilidades" class="estilo-habilidades-icones2" width="110px">
+                </div> <br> <br>
+                <div class="estilo-div2-modal-habilidades">
+                    <ul>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                        <li> Lorem ipsum dolor si.</li>
+                    </ul>
+                </div>
+                <div class="center-button">
+                    <button class="estilo-padrao-botoes" id="ocultar-modal-htmlcss" onclick="eventoWindows2()">voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>

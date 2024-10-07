@@ -664,6 +664,9 @@ hr{
     padding: 10px;
 }
 
-#config-display-modal-habilidades-htmlcss{
+#config-display-modal-habilidades-htmlcss, #config-display-modal-habilidades-javascript, 
+#config-display-modal-habilidades-phpmysql, #config-display-modal-habilidades-canva,
+#config-display-modal-habilidades-word, #config-display-modal-habilidades-excel,
+#config-display-modal-habilidades-edimg, #config-display-modal-habilidades-windows{
     display: none;
 }
