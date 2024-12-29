@@ -663,7 +663,8 @@ hr{
 #config-display-modal-habilidades-phpmysql, #config-display-modal-habilidades-canva,
 #config-display-modal-habilidades-word, #config-display-modal-habilidades-excel,
 #config-display-modal-habilidades-edimg, #config-display-modal-habilidades-windows,
-#config-display-modal-visualizacao, #config-display-modal-visualizacao-certificados{
+#config-display-modal-visualizacao, #config-display-modal-visualizacao-certificados, 
+#config-display-modal-habilidades-manutencao{
     display: none;
 }
 

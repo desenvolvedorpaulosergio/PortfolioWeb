@@ -157,15 +157,15 @@ function eventoEdIMG2(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
 
-//Modal de Habilidade Windows
+//Modal de Habilidade de Manutenção de Computadores
 
-function eventoWindows(){
-    window.document.getElementById('config-display-modal-habilidades-windows').style.display = 'block'
+function eventoManutencao(){
+    window.document.getElementById('config-display-modal-habilidades-manutencao').style.display = 'block'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
 }
 
-function eventoWindows2(){
-    window.document.getElementById('config-display-modal-habilidades-windows').style.display = 'none'
+function eventoManutencao2(){
+    window.document.getElementById('config-display-modal-habilidades-manutencao').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
 
