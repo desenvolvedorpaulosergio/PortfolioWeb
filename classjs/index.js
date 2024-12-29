@@ -176,8 +176,18 @@ function eventoVisualizar(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
 }
 
+function eventoCertificados(){
+    window.document.getElementById('config-display-modal-visualizacao-certificados').style.display = 'block'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+}
+
 function eventoClose(){
     window.document.getElementById('config-display-modal-visualizacao').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+}
+
+function eventoClose2(){
+    window.document.getElementById('config-display-modal-visualizacao-certificados').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 }
 
